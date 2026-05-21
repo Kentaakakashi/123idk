@@ -1,68 +1,79 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Universe</title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<section class="hero">
-  <h1>1 Year Through 💖</h1>
+<body>
 
-  <p>
-    Somewhere between late night calls, stupid jokes,
-    random screenshots and emotional attachment issues,
-    you became my favorite person alive.
-  </p>
-</section>
+  <!-- Ambient Background -->
+  <div class="blur-orb orb-1"></div>
+  <div class="blur-orb orb-2"></div>
+  <div class="blur-orb orb-3"></div>
 
-<section class="dashboard-grid">
+  <div class="bg-doodles">
+    <span class="doodle" style="top:10%;left:8%;">♡</span>
+    <span class="doodle" style="top:20%;right:12%;">✦</span>
+    <span class="doodle" style="bottom:15%;left:10%;">☁</span>
+    <span class="doodle" style="bottom:10%;right:15%;">☆</span>
+  </div>
 
-  <a href="album.html" class="card">
-    <div>
-      <h2>Our Album</h2>
-      <p>Every memory frozen forever.</p>
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <div class="loading-mascot">
+        <div class="mascot-body">
+          <div class="mascot-ear left"></div>
+          <div class="mascot-ear right"></div>
+
+          <div class="mascot-face">
+            <div class="mascot-eye left"></div>
+            <div class="mascot-eye right"></div>
+            <div class="mascot-mouth"></div>
+            <div class="mascot-blush left"></div>
+            <div class="mascot-blush right"></div>
+          </div>
+        </div>
+
+        <div class="mascot-bow">🎀</div>
+      </div>
+
+      <p class="loading-text">building our little universe...</p>
+
+      <div class="loading-bar-container">
+        <div class="loading-bar-track">
+          <div class="loading-bar-fill" id="loadingFill"></div>
+        </div>
+      </div>
     </div>
-  </a>
+  </div>
 
-  <a href="words.html" class="card">
-    <div>
-      <h2>My Words For You</h2>
-      <p>Your little audio museum.</p>
-    </div>
-  </a>
+  <!-- Main Dashboard -->
+  <main class="dashboard-main">
 
-  <a href="datetime.html" class="card">
-    <div>
-      <h2>Date Time</h2>
-      <p>Luxury digital invitation energy.</p>
-    </div>
-  </a>
+    <section class="hero-section">
+      <div class="hero-badge">
+        <span class="badge-star">✦</span>
+        1 YEAR THROUGH
+        <span class="badge-star">✦</span>
+      </div>
 
-  <a href="compliments.html" class="card">
-    <div>
-      <h2>Compliment Jar</h2>
-      <p>Tap for affection damage.</p>
-    </div>
-  </a>
+      <h1 class="hero-title">
+        <span class="title-line line-1">our little</span>
+        <span class="title-line line-2">love diary</span>
+        <span class="title-doodle">♡</span>
+      </h1>
 
-  <a href="letters.html" class="card">
-    <div>
-      <h2>Time Capsule</h2>
-      <p>Letters for future moments.</p>
-    </div>
-  </a>
+      <p class="hero-subtitle">
+        somewhere between late night calls and stupid jokes,
+        you became my favorite person alive.
+      </p>
 
-  <a href="photobooth.html" class="card">
-    <div>
-      <h2>Matchy Matchy</h2>
-      <p>The cutest feature here honestly.</p>
-    </div>
-  </a>
-
-</section>
-
-<script src="assets/js/main.js"></script>
-</body>
+      <div class="hero-ribbon">
+        made with too much love
+      </div>
+    </section>
 </html>
