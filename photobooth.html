@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html">← Back Home</a>
+</nav>
+
+<section class="page-container">
+<div class="section-title">
+  <h2>Matchy Matchy 📸</h2>
+</div>
+
+<div class="photobooth-grid" id="captureArea">
+
+  <div class="row">
+
+    <div class="box">
+      <img src="assets/images/pose1.jpg">
+    </div>
+
+    <div class="box" id="cam1">
+      <button class="camera-btn" onclick="startCamera('cam1')">
+        Lemme Match!
+      </button>
+    </div>
+
+  </div>
+
+</div>
+
+<button class="download-btn" id="downloadBtn">
+  Download Our Strip
+</button>
+
+</section>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
